@@ -1,0 +1,49 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(127, 215, 231), rgb(127, 231, 127))
+}
+ul li{
+    list-style: none;
+    font-size: 27px;
+    margin-top: 10px;
+    color: rgb(3, 85, 122);
+}
+p {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(3, 85, 122);
+}
+
+.play-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    color: #fff;
+    border-radius: 10%;
+    border: dashed rgb(124, 241, 94) 2px;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.button:hover {
+    background: rgba(0, 217, 255, 0.911);
+    transform: scale(1.7);
+}
+

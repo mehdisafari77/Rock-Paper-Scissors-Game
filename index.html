@@ -5,14 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Thank you for playing!</h1>
-    <p>Click the button to start the game</p>
+    <section class= "header">
+        <div class="header-p">
+            <p>Click on the button to start a wonderful game of Rock, Paper, & Scissors!</p>
+            <p>Good Luck!</p> 
+        </div>
+    </section>
+    
+    <section class="play-button">
+        <div class=button onclick="playGame()">Click here!</div>
+    </section>
 
-<button onclick="startButton()">Click here!</button>
-
-<p id="RPS"></p>
+    <section class="scoreboard">
+        <ul>
+            <li>Wins: <span id="wins"></span></li>
+            <li>Losses: <span id="losses"></span></li>
+            <li>Ties: <span id="ties"></span></li>
+        </ul>
+    </section>
     
 </body>
 <script src="script.js"></script>
