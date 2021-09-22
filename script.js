@@ -38,7 +38,3 @@ function playGame() {
         playGame()
     }
 }
-
-document.getElementById('wins').innerHTML = wins
-document.getElementById('losses').innerHTML = losses
-document.getElementById('ties').innerHTML = ties
