@@ -1,8 +1,8 @@
 
-function myFunction() {
-    var person = prompt("Rock, Paper, or Scissors?");
-    if (person != null) {
+function startButton() {
+    var chosenOption = prompt("Rock, Paper, or Scissors?");
+    if (chosenOption != null) {
       document.getElementById("RPS").innerHTML =
-      "Hello " + person + "! How are you today?";
+      "You chose " + chosenOption + "but the computer chose X?";
     }
   }
